@@ -1,4 +1,8 @@
-UIImageViewWebCache
+LyBaseDataModel
 ===================
 
-用Swfit写的一个UIImageView的类别，用来支持加载网络图片
+用Swfit写的一个数据模型的抽象基类，在基类中已经支持了 copy 和 coding，只需要继承后，写上相对应的读写方法就可以了 ！
+
+如果数据模型中的属性比较多，感觉写的东西会有点多，我还在找方法解决，最近也有在看 Mantle
+
+
